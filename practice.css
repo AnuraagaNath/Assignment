@@ -1,0 +1,71 @@
+.hi{
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+    border: 20px solid rgb(255, 0, 0);
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 120px;
+    transition: 0.5s;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+#one{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    width: 100%;
+    height: 25vh;
+    border: 10px solid rgb(0, 238, 255);
+    border-radius: 50px;
+    border-top: 50px;
+}
+
+.hi:hover{
+    background-color: honeydew;
+    color: black;
+    border: 30px dotted black;
+}
+
+a:hover{
+    color: red;
+}
+
+#Links{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 10px solid yellow;
+    border-radius: 30px;
+    border-top: 40px;
+    
+    
+}
+.hello:hover{
+    border: 30px dotted yellow;
+    
+}
+.hello{
+    color: brown;
+    background-color: gold;
+    border: 10px solid black;
+    padding: 10px;
+    width: 200px;
+    font-weight: bolder;
+    font-style: italic;
+    transition: 0.2s;
+    border-radius: 50px;
+    
+
+}
+#thanks{
+    background-color: bisque;
+    border: 10px solid brown;
+    transition: 0.2s;
+
+}
+#thanks:hover{
+    border: 30px double black;
+}
